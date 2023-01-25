@@ -1,0 +1,10 @@
+body {
+    background-color: brown;
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 50%;
+
+}

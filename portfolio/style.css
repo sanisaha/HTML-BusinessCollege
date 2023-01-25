@@ -1,0 +1,63 @@
+*{
+    margin: 0.5% 0.5%;
+}
+#navbar {
+    background-image: url('https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NTZ8MTA2NTk3Nnx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60');
+
+    background-size: cover;
+    background-position: center;
+}
+#start-line {
+    padding: 15% 0%;
+    text-align: center;
+    color: rgb(241, 233, 241);
+}
+#name {
+    text-align: center;
+    padding:10% 0% 3% 0%;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+    margin-right: 5%;
+}
+ul li a{
+    text-decoration: none;
+}
+.content {
+    padding: 5% 2%;
+}
+.content img {
+    width: 20%;
+    padding: 0% 2%;
+    min-height: 160px;
+    max-height: 180px;
+}
+.content p {
+    font-size: small;
+    font-weight: 100;
+    line-height: 2rem;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#footer p {
+    font-size: small;
+    padding: 3% 0%;
+}
+@media only screen and (max-width: 900px) {
+    .content p {
+    overflow: hidden;
+    line-height: 2rem;
+    max-height: 8rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    }
+
+  }

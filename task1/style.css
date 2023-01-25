@@ -1,0 +1,18 @@
+body {
+    background-color: green;
+}
+.my_name {
+    color: yellow;
+}
+.start_line {
+    color: red;
+    text-align: center;
+}
+.start_line:hover {
+    color: greenyellow;
+}
+#first{
+    color: tomato;
+    font-family: "Sofia", sans-serif;
+
+}
